@@ -4,7 +4,33 @@
     left: 0;
     right: 0;
     bottom: 2px;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80px;
+  width: 100%;
   background-color:#009494;
-  font
+  z-index: 9999;
+  }
+
+#override_bootstrap{
+  z-index:9999;
+  position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height:60px;
+  width: 100%;
+}
+
+#myCarousel{
+  z-index:2;
+}
+
+#carousel_products{
+  z-index:2;
 }
