@@ -13,6 +13,17 @@
   background-color:#009494;
   }
 
+#menu {
+  z-index:9999;
+  position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  height: 50px;
+  width: 100%;
+}
+
 #override_bootstrap{
   z-index:9999;
   position: fixed;
