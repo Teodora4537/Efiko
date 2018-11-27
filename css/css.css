@@ -10,8 +10,7 @@
   text-align: center;
   height: 80px;
   width: 100%;
-  background-color:#009494;
-  }
+}
 
 #menu {
   z-index:9999;
@@ -38,10 +37,6 @@
   width: 100%;
 }
 
-#body{
-  background-color:coral;
-}
-
 #myCarousel{
   z-index:2;
   margin-left: auto;
@@ -60,24 +55,21 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 5%;
-  color:coral;
-
+    bottom: 10%;
 }
 
 #carousel_services{
   z-index:2;
-  height: 215px;
+  height: 300px;
   Position:
     top: 0;
     left: 0;
     right: 0;
-    bottom: 5%;
-  color:coral;
+    bottom: 10%;
 }
 
 #services{
-  height:250px;
+  height:300px;
   position:
     top:20px;
 }
