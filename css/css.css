@@ -116,13 +116,13 @@
 }
 
 #main {
-  margin-left:100px;
-  margin-right:100px;
+  padding-left: ($spacer-x * .5) !important;
+  padding-right: ($spacer-x * .5) !important;
 }
 form{
   width: 75%;
   display: inline-block;
-  margin-left: auto;
+  left-margin: 100px;
   margin-right: auto;
   text-align: left;
 }
