@@ -1,4 +1,18 @@
 #header_efiko {
+  z-index: 9998;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}
+
+#header_about {
   z-index: 9999;
   position: fixed;
     top: 0;
@@ -12,10 +26,12 @@
   width: 100%;
 }
 
+
+
 #menu {
   z-index:9999;
   position: fixed;
-    top: 80px;
+    top: 72px;
     left: 0;
     right: 0;
     bottom: 10px;
@@ -24,7 +40,7 @@
 }
 
 #menu2 {
-  z-index:9999;
+  z-index:9998;
   position: fixed;
     top: 80px;
     left: 0;
