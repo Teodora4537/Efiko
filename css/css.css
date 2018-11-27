@@ -51,7 +51,7 @@
 
 
 
-#override_bootstrap{
+#override_bootstrap {
   z-index:9999;
   position: fixed;
     top: 80px;
@@ -115,6 +115,10 @@
   margin-right:2.5%;
 }
 
+#main {
+  margin-left:100px;
+  margin-right:100px;
+}
 form{
   width: 75%;
   display: inline-block;
