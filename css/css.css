@@ -21,17 +21,17 @@
 h1 {
   color: #D4CCCC;
   font-family: 'Syncopate', sans-serif;
-  font-size: 68px;
+  font-size: 58px;
   text-align: center;
   letter-spacing: 2.5px;
 }
 
 h2 {
-  color: #009494;
+  color: #D4CCCC ;
   font-family: 'Abril Fatface', cursive;
-  font-size: 20px;
-  letter-spacing: 2.2px;
+  font-size: 18px;
   text-align: center;
+  letter-spacing: 2.2px;
 }
 
 h3 {
@@ -68,8 +68,9 @@ strong {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 2px;
+  height: 120px;
   width: 100%;
+  background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
 }
 
 #header_about {
@@ -78,9 +79,7 @@ strong {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+    bottom: 8px;
   text-align: center;
   height: 150px;
   width: 100%;
@@ -90,7 +89,7 @@ strong {
 #menu {
   z-index:9999;
   position: fixed;
-    top: 72px;
+    top: 120px;
     left: 0;
     right: 0;
     bottom: 10px;
