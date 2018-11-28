@@ -1,3 +1,5 @@
+// elements fade-in as user scrolls the page //
+
 $(document).ready(function() {
 
     $(window).scroll( function(){
@@ -17,4 +19,10 @@ $(document).ready(function() {
 
     });
 
+});
+
+// force page to start at top when refreshed //
+
+$(document).ready(function(){
+    $(this).scrollTop(0);
 });
