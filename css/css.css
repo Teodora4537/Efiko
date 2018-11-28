@@ -113,6 +113,10 @@ strong {
     color: #F6B518;
 }
 
+.card-img-top {
+  border-radius: 20px;
+}
+
 #header_efiko {
   z-index: 9998;
   position: fixed;
