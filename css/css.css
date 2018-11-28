@@ -2,7 +2,7 @@
   border-color: #FFFFFF;
 }
 
-.card-img-top:hover {
+.card:hover {
   opacity: 0.5;
 }
 
