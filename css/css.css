@@ -27,34 +27,44 @@
   background-color:#FCFDFD;
   }
 
+.card {
+  border-color: #FFFFFF;
+}
+
+.card-body {
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
+}
+
+
 h1 {
   color: #D4CCCC;
   font-family: 'Syncopate', sans-serif;
   font-size: 68px;
   text-align: center;
+  letter-spacing: 2.5px;
 }
 
 h2 {
   color: #009494;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 2.2px;
   text-align: center;
 }
 
 h3 {
-  color: #009494;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  letter-spacing: 2.2px;
-  text-align: center;
-}
-
-h4 {
   color: #2ECEBA;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-align: center;
+}
+
+p {
+  color: #f6f6f6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 #menu {
@@ -69,6 +79,10 @@ h4 {
   background-color: #009494;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px
+}
+
+strong {
+  color: #F6B518;
 }
 
 #menu2 {
@@ -105,7 +119,6 @@ h4 {
   margin-bottom: 25px;
   width:100%;
   height: 100%;
-
 }
 
 #carousel_products{
