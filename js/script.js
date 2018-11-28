@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $(window).scroll( function(){
 
-        $('.card').each( function(i){
+        $('.mx-2 card-deck').each( function(i){
 
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
