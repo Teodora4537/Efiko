@@ -113,13 +113,6 @@ strong {
     color: #F6B518;
 }
 
-.nav-item:hover {
-    opacity: 0.7;
-    color: #2ECEBA;
-}
-
-
-
 #header_efiko {
   z-index: 9998;
   position: fixed;
