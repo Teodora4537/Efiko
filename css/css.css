@@ -31,12 +31,19 @@
   border-color: #FFFFFF;
 }
 
+.card-img-top {
+  border-radius: 100px;
+}
+
 .card-body {
-  border-radius: 20px;
-  border-color: #FFFFFF;
+  border-radius: 40px;
   background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
 }
 
+.icon {
+  height: 100px;
+  align-items: center;
+}
 
 h1 {
   color: #D4CCCC;
@@ -48,7 +55,7 @@ h1 {
 
 h2 {
   color: #009494;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 20px;
   letter-spacing: 2.2px;
   text-align: center;
@@ -67,6 +74,17 @@ p {
   font-size: 16px;
 }
 
+h4 {
+  color: #D4CCCC;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+strong {
+  color: #F6B518;
+}
+
 #menu {
   z-index:9999;
   position: fixed;
@@ -79,10 +97,6 @@ p {
   background-color: #009494;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px
-}
-
-strong {
-  color: #F6B518;
 }
 
 #menu2 {
