@@ -1,43 +1,16 @@
-#header_efiko {
-  z-index: 9998;
-  position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  height: 2px;
-  width: 100%;
-}
-
-#header_about {
-  z-index: 9999;
-  position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  height: 150px;
-  width: 100%;
-  background-color:#FCFDFD;
-  }
-
 .card {
   border-color: #FFFFFF;
 }
 
 .card-img-top {
   border-radius: 100px;
+  border-color: #F6B518;
 }
 
 .card-body {
-  border-radius: 40px;
+  border-radius: 30px;
   background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
+  margin-top: 20px;
 }
 
 .icon {
@@ -84,6 +57,35 @@ h4 {
 strong {
   color: #F6B518;
 }
+
+#header_efiko {
+  z-index: 9998;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 2px;
+  width: 100%;
+}
+
+#header_about {
+  z-index: 9999;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  background-color:#FCFDFD;
+  }
 
 #menu {
   z-index:9999;
@@ -166,7 +168,10 @@ strong {
 }
 
 #button {
-  flex
+  background:  #009494;
+  position: absolute;
+   bottom: 0;
+   margin: 0;
 }
 
 #maintext{
