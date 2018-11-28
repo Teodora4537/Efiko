@@ -1,31 +1,3 @@
-.card {
-  border-color: #FFFFFF;
-}
-
-.card:hover {
-  opacity: 0.5;
-}
-
-.card-img-top {
-  border-radius: 100px;
-}
-
-.card-body {
-  border-radius: 30px;
-  background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
-  margin-top: 20px;
-}
-
-.icon {
-  height: 100px;
-  align-items: center;
-}
-
-.carousel-caption {
-  radius: 100px;
-  align-items: center;
-}
-
 h1 {
   color: #D4CCCC;
   font-family: 'Abril Fatface', cursive;
@@ -73,6 +45,35 @@ p {
 strong {
   color: #F6B518;
 }
+
+.card {
+  border-color: #FFFFFF;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+.card-img-top {
+  border-radius: 100px;
+}
+
+.card-body {
+  border-radius: 30px;
+  background: linear-gradient(to top, #009494 20%, #2ECEBA 100%);
+  margin-top: 20px;
+}
+
+.icon {
+  height: 100px;
+  align-items: center;
+}
+
+.carousel-caption {
+  radius: 100px;
+  align-items: center;
+}
+
 
 #header_efiko {
   z-index: 9998;
@@ -206,12 +207,16 @@ div.form {
   text-align: center;
 }
 
+.form-control {
+  font-size: 10px;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
-    text-decoration: none;
+    border-radius: 50%;
 }
 
 .fa:hover {
@@ -221,9 +226,10 @@ div.form {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    height: 40px;
+    margin-right: 5px;
 }
 
-/* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
