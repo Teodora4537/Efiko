@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.carousel-item {
+  opacity: 0.4;
+}
+
 h1 {
   color: #D4CCCC;
   font-family: 'Syncopate', sans-serif;
@@ -32,7 +36,7 @@ h1 {
 }
 
 h2 {
-  color: #D4CCCC ;
+  color: #f2f2f2;
   font-family: 'Abril Fatface', cursive;
   font-size: 16px;
   text-align: center;
@@ -46,18 +50,26 @@ h3 {
   text-align: center;
 }
 
-p {
-  color: #f6f6f6;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-}
-
 h4 {
   color: #D4CCCC;
   font-family: 'Abril Fatface', cursive;
   font-size: 60px;
   text-align: center;
 }
+
+h5 {
+  color: #009494;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+p {
+  color: #f6f6f6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
 
 strong {
   color: #F6B518;
