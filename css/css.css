@@ -46,12 +46,21 @@ strong {
   color: #F6B518;
 }
 
+.lead {
+  color: #009494;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2.8px;
+}
+
 .card {
   border-color: #FFFFFF;
 }
 
 .card:hover {
   opacity: 0.5;
+
 }
 
 .card-img-top {
@@ -73,6 +82,20 @@ strong {
   radius: 100px;
   align-items: center;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 3px;
+    width: 4px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #F6B518;
+}
+
 
 
 #header_efiko {
@@ -205,16 +228,4 @@ form{
 div.form {
   display: block;
   text-align: center;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 3px;
-    width: 100px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
 }
