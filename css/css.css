@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+.carousel-caption {
+  radius: 100px;
+  align-items: center;
+}
+
 h1 {
   color: #D4CCCC;
   font-family: 'Syncopate', sans-serif;
@@ -29,9 +34,9 @@ h1 {
 h2 {
   color: #D4CCCC ;
   font-family: 'Abril Fatface', cursive;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  letter-spacing: 2.2px;
+  letter-spacing: 2.8px;
 }
 
 h3 {
