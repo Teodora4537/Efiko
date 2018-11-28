@@ -207,10 +207,6 @@ div.form {
   text-align: center;
 }
 
-.form-control {
-  font-size: 10px;
-}
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -221,16 +217,5 @@ div.form {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    height: 40px;
-    margin-right: 5px;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+    color: #F6B518;
 }
