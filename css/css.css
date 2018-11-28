@@ -36,15 +36,23 @@ h1 {
 
 h2 {
   color: #009494;
-  font-family: 'Chonburi', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 2.2px;
   text-align: center;
 }
 
 h3 {
+  color: #009494;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.2px;
+  text-align: center;
+}
+
+h4 {
   color: #2ECEBA;
-  font-family: 'Chonburi', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-align: center;
 }
@@ -59,7 +67,7 @@ h3 {
   height: 50px;
   width: 100%;
   background-color: #009494;
-  font-family: 'Chonburi', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px
 }
 
