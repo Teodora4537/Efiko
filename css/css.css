@@ -167,6 +167,13 @@ strong {
   height:200px;
 }
 
+#button {
+  background:  #009494;
+  position: absolute;
+   bottom: 0;
+   margin: 0;
+}
+
 #maintext{
   margin-left:2.5%;
   margin-right:2.5%;
@@ -176,12 +183,10 @@ strong {
   padding-left: ($spacer-x * .5) !important;
   padding-right: ($spacer-x * .5) !important;
 }
-
-
 form{
   width: 75%;
   display: inline-block;
-  margin-left: 100px;
+  left-margin: 100px;
   margin-right: auto;
   text-align: left;
 }
